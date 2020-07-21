@@ -1,0 +1,35 @@
+plugins {
+	id 'org.springframework.boot' version '2.3.1.RELEASE'
+	id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+	id 'java'
+	id 'java-library'
+	id 'idea'
+	id 'application'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+mainClassName = "com.example.demo.DemoApplication"
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+
+	testImplementation('org.springframework.boot:spring-boot-starter-test') {
+		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+	}
+
+	api ("org.springframework.boot:spring-boot-starter-webflux") {
+		transitive = true
+	}
+
+	compile("org.springframework.boot:spring-boot-starter-actuator")
+	api ("log4j:log4j:1.2.17")
+}
+
+test {
+	useJUnitPlatform()
+}
