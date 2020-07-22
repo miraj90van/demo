@@ -5,3 +5,20 @@ server:
   http2:
     enabled: true
   port: 8080
+
+management:
+  health:
+    mongo:
+      enabled: true
+endpoints:
+  mongo:
+    enabled=true:
+
+spring:
+  data:
+    mongodb:
+      host: ${MONGODB_HOST}
+      port: ${MONGODB_PORT}
+  redis:
+    host: ${REDIS_HOST}
+    port: ${REDIS_PORT}
