@@ -1,8 +1,0 @@
-[INFO] 2020-07-22 01:57:37 [main] o.s.b.a.e.w.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
-[INFO] 2020-07-22 01:57:38 [main] o.s.b.w.e.n.NettyWebServer Netty started on port(s): 8080
-[INFO] 2020-07-22 01:59:39 [Test worker] o.s.b.a.e.w.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
-[INFO] 2020-07-22 01:59:56 [Test worker] o.s.b.a.e.w.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
-[INFO] 2020-07-22 02:00:22 [main] o.s.b.a.e.w.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
-[INFO] 2020-07-22 02:00:23 [main] o.s.b.w.e.n.NettyWebServer Netty started on port(s): 8080
-[INFO] 2020-07-22 02:00:46 [main] o.s.b.a.e.w.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
-[INFO] 2020-07-22 02:00:46 [main] o.s.b.w.e.n.NettyWebServer Netty started on port(s): 8080
